@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "916919097684",
+    "project_id": "fir-appcjlocal",
+    "storage_bucket": "fir-appcjlocal.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916919097684:android:96fbfda9e774dffe0cd0c1",
+        "android_client_info": {
+          "package_name": "com.example.localappcj"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHobSTHUMUDORY620Y588Y8rHXZjA_NLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
