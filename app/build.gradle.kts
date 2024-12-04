@@ -56,4 +56,7 @@ dependencies {
     implementation(libs.firebaseAuth)
     implementation(libs.firebaseStorage)
     implementation(libs.firebaseStore)
+
+    implementation("androidx.core:core-splashscreen:1.0.0")
+
 }
