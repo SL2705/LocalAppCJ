@@ -16,6 +16,8 @@ googleServiceVersion="4.4.2"
 firebaseAuthV="23.1.0"
 firebaseStoreV="25.1.1"
 firebaseStorageV="21.0.1"
+osmbonuspack = "6.6.0"
+osmdroidAndroid = "6.1.14"
 preferenceKtx = "1.2.1"
 
 [libraries]
@@ -35,6 +37,8 @@ firebaseAuth= {group="com.google.firebase", name = "firebase-auth", version.ref=
 firebaseStore= {group="com.google.firebase", name = "firebase-firestore", version.ref="firebaseStoreV"}
 firebaseStorage= {group="com.google.firebase", name = "firebase-storage", version.ref="firebaseStorageV"}
 androidx-preference-ktx = { group = "androidx.preference", name = "preference-ktx", version.ref = "preferenceKtx" }
+osmbonuspack = { module = "org.osmdroid:osmbonuspack", version.ref = "osmbonuspack" }
+osmdroid-android = { module = "org.osmdroid:osmdroid-android", version.ref = "osmdroidAndroid" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

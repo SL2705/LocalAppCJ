@@ -6,9 +6,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:padding="16dp">
 
-    <!-- Título -->
-
-    <!-- Descripción -->
 
     <TextView
         android:id="@+id/tourist_title"

@@ -53,8 +53,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    implementation("org.osmdroid:osmdroid-android:6.1.14")
-    implementation("org.osmdroid:osmbonuspack:6.6.0") // Para marcadores y capas avanzadas
+    implementation(libs.osmdroid.android)
+
     implementation(libs.firebaseAuth)
     implementation(libs.firebaseStorage)
     implementation(libs.firebaseStore)
