@@ -7,4 +7,18 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="verdefosforecente">#11C969</color>
+    <color name="dark_grey">#181818</color>
+
+    <color name="primaryTextColor">#FFFFFF</color> <!-- Blanco para el texto principal -->
+    <color name="secondaryTextColor">#D9E4F5</color> <!-- Azul claro para el texto secundario -->
+    <color name="linkColor">#FFC107</color> <!-- Amarillo para el enlace -->
+    <color name="buttonColor">#4CAF50</color> <!-- Verde para el botón -->
+
+    <color name="blanco">#FFFFFF</color>
+    <color name="grisOscuro">#3D3D3D</color>
+    <color name="azulOscuro">#0056B3</color>
+    <color name="amarillo">#FFC107</color>
+
+
 </resources>

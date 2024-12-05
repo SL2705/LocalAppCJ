@@ -49,6 +49,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.androidx.activity)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -56,4 +57,7 @@ dependencies {
     implementation(libs.firebaseAuth)
     implementation(libs.firebaseStorage)
     implementation(libs.firebaseStore)
+
+    implementation("androidx.core:core-splashscreen:1.0.1")
+
 }
