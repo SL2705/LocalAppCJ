@@ -38,15 +38,15 @@
 
     <Button
         android:id="@+id/submit_review_button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/review_container"
         android:layout_width="186dp"
         android:layout_height="65dp"
         android:text="Enviar Reseña"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="375dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/review_container"
+        app:layout_constraintVertical_bias="0.532" />
 
     <EditText
         android:id="@+id/review_text"
@@ -57,6 +57,7 @@
         android:inputType="textMultiLine"
         android:minHeight="150dp"
         tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="64dp" />
+        tools:layout_editor_absoluteY="64dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

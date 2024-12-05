@@ -1,7 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp">
@@ -18,8 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Switch para cambiar el tema oscuro -->
-
+    <!-- Etiqueta y Switch para tema oscuro -->
     <TextView
         android:id="@+id/theme_label"
         android:layout_width="wrap_content"
@@ -27,8 +26,8 @@
         android:layout_marginTop="16dp"
         android:text="Modo Oscuro"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/settings_title" />
+        app:layout_constraintTop_toBottomOf="@id/settings_title"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Switch
         android:id="@+id/theme_switch"
@@ -37,20 +36,19 @@
         android:checked="false"
         android:minWidth="48dp"
         android:minHeight="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/theme_label" />
+        app:layout_constraintTop_toTopOf="@id/theme_label"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Switch para activar/desactivar notificaciones -->
-
+    <!-- Etiqueta y Switch para notificaciones -->
     <TextView
         android:id="@+id/notifications_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="Notificaciones"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="88dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@id/theme_label"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Switch
         android:id="@+id/notifications_switch"
@@ -59,18 +57,19 @@
         android:checked="true"
         android:minWidth="48dp"
         android:minHeight="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/notifications_label" />
+        app:layout_constraintTop_toTopOf="@id/notifications_label"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-
+    <!-- Botón de Cerrar Sesión -->
     <Button
         android:id="@+id/logout_button"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:text="Cerrar Sesión"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="166dp"
-        tools:ignore="MissingConstraints" />
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/notifications_label" />
 </androidx.constraintlayout.widget.ConstraintLayout>

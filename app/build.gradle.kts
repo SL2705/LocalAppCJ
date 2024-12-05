@@ -54,7 +54,6 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.osmdroid.android)
-
     implementation(libs.firebaseAuth)
     implementation(libs.firebaseStorage)
     implementation(libs.firebaseStore)
