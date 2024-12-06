@@ -19,6 +19,7 @@ firebaseStorageV="21.0.1"
 osmbonuspack = "6.6.0"
 osmdroidAndroid = "6.1.14"
 preferenceKtx = "1.2.1"
+activity = "1.9.3"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -39,6 +40,7 @@ firebaseStorage= {group="com.google.firebase", name = "firebase-storage", versio
 androidx-preference-ktx = { group = "androidx.preference", name = "preference-ktx", version.ref = "preferenceKtx" }
 osmbonuspack = { module = "org.osmdroid:osmbonuspack", version.ref = "osmbonuspack" }
 osmdroid-android = { module = "org.osmdroid:osmdroid-android", version.ref = "osmdroidAndroid" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
