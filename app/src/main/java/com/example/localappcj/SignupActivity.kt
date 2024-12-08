@@ -8,8 +8,6 @@ import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.example.localappcj.databinding.ActivitySignupBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
-import java.util.Calendar
-import android.app.DatePickerDialog
 
 class SignupActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySignupBinding
