@@ -39,6 +39,54 @@
                 android:layout_marginBottom="24dp"
                 android:textColor="@color/grisOscuro" />
 
+            <!-- Campo de Nombre -->
+            <EditText
+                android:id="@+id/signup_name"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Nombres"
+                android:layout_marginBottom="16dp"
+                android:padding="12dp"
+                android:background="@drawable/rounded_edittext" />
+
+            <!-- Campo de Apellido -->
+            <EditText
+                android:id="@+id/signup_last_name"
+                android:layout_width="match_parent"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:layout_height="48dp"
+                android:hint="Apellidos"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="16dp"
+                android:padding="12dp"
+                android:background="@drawable/rounded_edittext" />
+
+            <!-- Campo de Edad -->
+            <EditText
+                android:id="@+id/signupAge"
+                android:drawableLeft="@drawable/baseline_calendar_month_24"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Edad"
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginBottom="16dp"
+                android:padding="12dp"
+                android:inputType="number" />
+
+
+            <!-- Campo de Género -->
+            <EditText
+                android:id="@+id/signup_gender"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:drawableLeft="@drawable/baseline_person_pin_24"
+                android:hint="Género (Masculino, Femenino, Otro)"
+                android:layout_marginBottom="14dp"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:background="@drawable/rounded_edittext" />
+
             <!-- Campo de correo electrónico -->
             <EditText
                 android:id="@+id/signup_email"
