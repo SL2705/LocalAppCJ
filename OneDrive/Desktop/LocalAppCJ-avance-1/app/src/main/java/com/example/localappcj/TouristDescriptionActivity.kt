@@ -13,11 +13,12 @@ class TouristDescriptionActivity : AppCompatActivity() {
         val title = findViewById<TextView>(R.id.tourist_title)
         val description = findViewById<TextView>(R.id.tourist_description)
 
-        // Obtener los detalles del lugar turístico
+        // Obtener los detalles del lugar turístico desde el Intent
         val touristName = intent.getStringExtra("TOURIST_NAME")
         val touristDescription = intent.getStringExtra("TOURIST_DESCRIPTION")
 
-        title.text = touristName
-        description.text = touristDescription
+        // Asegurarse de que los datos no sean nulos antes de usarlos
+        title.text = touristName ?: "Nombre no disponible"
+        description.text = touristDescription ?: "Descripción no disponible"
     }
 }
