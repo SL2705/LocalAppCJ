@@ -22,4 +22,29 @@
         android:name="com.example.localappcj.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.example.localappcj.MapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_map" />
+    <activity
+        android:id="@+id/navigation_tourist_description"
+        android:name="com.example.localappcj.TouristDescriptionActivity"
+        android:label="Tourist Description"
+        tools:layout="@layout/activity_tourist_description" />
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.localappcj.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <activity
+        android:id="@+id/navigation_review"
+        android:name="com.example.localappcj.ReviewActivity"
+        android:label="Review"
+        tools:layout="@layout/activity_review">
+        <argument
+            android:name="reviewId"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </activity>
 </navigation>
