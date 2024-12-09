@@ -25,12 +25,12 @@
         android:id="@+id/category_filter_spinner"
         android:layout_width="0dp"
         android:layout_height="48dp"
-    android:layout_margin="16dp"
-    android:padding="8dp"
-    android:spinnerMode="dropdown"
-    app:layout_constraintTop_toBottomOf="@id/text_welcome"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintEnd_toEndOf="parent" />
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintTop_toBottomOf="@id/text_welcome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 
     <!-- RecyclerView para recomendaciones personalizadas -->

@@ -8,6 +8,7 @@ android {
     namespace = "com.example.localappcj"
     compileSdk = 35
 
+
     defaultConfig {
         applicationId = "com.example.localappcj"
         minSdk = 24
@@ -62,5 +63,6 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:33.7.0"))
     implementation("com.google.android.gms:play-services-auth:21.2.0")
     implementation("androidx.core:core-splashscreen:1.0.1")
+
 
 }

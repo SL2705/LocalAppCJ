@@ -1,16 +1,24 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+    <!-- Tema base para la aplicación en modo oscuro -->
     <style name="Theme.LocalAppCJ" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
+        <!-- Colores primarios -->
+        <item name="colorPrimary">@color/colorGreenDark</item> <!-- Verde oscuro -->
+        <item name="colorPrimaryVariant">@color/colorGreen</item> <!-- Verde claro -->
+        <item name="colorOnPrimary">@color/blanco</item> <!-- Color de texto en colorPrimary -->
+
+        <!-- Colores secundarios -->
+        <item name="colorSecondary">@color/colorBlueDark</item> <!-- Azul oscuro -->
+        <item name="colorSecondaryVariant">@color/colorBlue</item> <!-- Azul claro -->
+        <item name="colorOnSecondary">@color/white</item> <!-- Color de texto en colorSecondary -->
+
+        <!-- Color de fondo -->
+        <item name="android:windowBackground">@color/colorBackgroundDark</item> <!-- Fondo oscuro -->
+
+        <!-- Color de texto sobre fondo oscuro -->
+        <item name="android:textColorPrimary">@color/white</item> <!-- Texto principal en blanco -->
+        <item name="android:textColorSecondary">@color/white</item> <!-- Texto secundario en blanco -->
+
+        <!-- Color de la barra de estado -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
     </style>
 </resources>

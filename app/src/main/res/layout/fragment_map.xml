@@ -22,24 +22,42 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"> <!-- Ajustar el margen inferior -->
 
         <!-- Botón para centrar el "mapa" -->
         <Button
-            android:id="@+id/btn_center"
+            android:id="@+id/btn_centrar_mapa"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_marginStart="8dp"
+
+            android:backgroundTint="@color/verdefosforecente"
+            android:textColor="@color/blanco"
             android:text="Centrar Mapa" />
 
         <!-- Botón para mostrar zonas -->
         <Button
-            android:id="@+id/btn_markers"
+            android:id="@+id/btn_marcadores"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/verdefosforecente"
+            android:textColor="@color/blanco"
             android:layout_weight="1"
             android:text="Mostrar Zonas" />
     </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!--
+        <View
+        Botón para mostrar zonas  android:id="@+id/map_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#DDDDDD"
+            app:layout_constraintTop_toBottomOf="@id/button_container"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+        -->
+    </androidx.constraintlayout.widget.ConstraintLayout>

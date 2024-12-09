@@ -34,8 +34,8 @@ class MapFragment : Fragment() {
         mapView.controller.setCenter(GeoPoint(31.7398, -106.4869)) // Ciudad Juárez
 
         // Configuración de botones
-        val btnCenter = view.findViewById<Button>(R.id.btn_center)
-        val btnMarkers = view.findViewById<Button>(R.id.btn_markers)
+        val btnCenter = view.findViewById<Button>(R.id.btn_centrar_mapa)
+        val btnMarkers = view.findViewById<Button>(R.id.btn_marcadores)
 
         btnCenter.setOnClickListener { centerMap() }
         btnMarkers.setOnClickListener { showMarkers() }
