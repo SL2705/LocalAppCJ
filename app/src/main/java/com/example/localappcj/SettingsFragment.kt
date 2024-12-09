@@ -10,7 +10,7 @@ import android.widget.Button
 import android.widget.Switch
 import androidx.fragment.app.Fragment
 import androidx.appcompat.app.AppCompatDelegate
-import androidx.preference.PreferenceManager
+
 
 class SettingsFragment : Fragment() {
 
@@ -26,8 +26,7 @@ class SettingsFragment : Fragment() {
         // Inflar el layout del fragmento
         val view = inflater.inflate(R.layout.fragment_settings, container, false)
 
-        // Inicializar SharedPreferences
-        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(requireContext())
+
 
         // Inicializar vistas
         themeSwitch = view.findViewById(R.id.theme_switch)
