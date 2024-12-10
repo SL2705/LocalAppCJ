@@ -1,0 +1,6 @@
+com.example.localappcj.test.app-androidTest-0 C:\Users\xbox7\OneDrive\Desktop\LocalAppCJ-test-1-1\app\build\generated\res\resValues\androidTest\debug
+com.example.localappcj.test.app-mergeDebugAndroidTestResources-1 C:\Users\xbox7\OneDrive\Desktop\LocalAppCJ-test-1-1\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.localappcj.test.app-mergeDebugAndroidTestResources-2 C:\Users\xbox7\OneDrive\Desktop\LocalAppCJ-test-1-1\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.localappcj.test.app-debugAndroidTest-3 C:\Users\xbox7\OneDrive\Desktop\LocalAppCJ-test-1-1\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.example.localappcj.test.app-tracing-1.2.0-4 C:\Users\xbox7\OneDrive\Desktop\gradle-8.11.1\caches\transforms-4\a963ce63c5aec5c735699390e1fe691c\transformed\tracing-1.2.0\res
+com.example.localappcj.test.app-core-1.6.1-5 C:\Users\xbox7\OneDrive\Desktop\gradle-8.11.1\caches\transforms-4\b6cb06904301b6b82ff390af9926a389\transformed\core-1.6.1\res

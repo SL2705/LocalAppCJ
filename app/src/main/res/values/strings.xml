@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">LocalAppCJ</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">TourJuarez</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_map">Mapa</string>
+    <string name="title_setting">Configuracion</string>
+    <string name="default_web_client_id">916919097684-vgh8i5enr7osa1chjiq4s4tiqu6aihoi.apps.googleusercontent.com</string>
 </resources>
