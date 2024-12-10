@@ -7,4 +7,48 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="verdefosforecente">#11C969</color>
+    <color name="dark_grey">#181818</color>
+    <color name="primaryTextColor">#FFFFFF</color> <!-- Blanco para el texto principal -->
+    <color name="secondaryTextColor">#D9E4F5</color> <!-- Azul claro para el texto secundario -->
+    <color name="linkColor">#FFC107</color> <!-- Amarillo para el enlace -->
+    <color name="buttonColor">#4CAF50</color> <!-- Verde para el botón -->
+        <!-- Verdes -->
+        <color name="colorGreenLight">#A8D5BA</color> <!-- Verde claro -->
+        <color name="colorGreen">#4CAF50</color> <!-- Verde -->
+        <color name="colorGreenDark">#388E3C</color> <!-- Verde oscuro -->
+        <!-- Azules -->
+        <color name="colorBlueLight">#81D4FA</color> <!-- Azul claro -->
+        <color name="colorBlue">#2196F3</color> <!-- Azul -->
+        <color name="colorBlueDark">#1976D2</color> <!-- Azul oscuro -->
+        <!-- Aqua y cian -->
+        <color name="colorAqua">#00BCD4</color> <!-- Aqua -->
+        <color name="colorCyan">#00B8D4</color> <!-- Cian -->
+        <!-- Morados y lilas -->
+        <color name="colorPurpleLight">#D1C4E9</color> <!-- Morado claro -->
+        <color name="colorPurple">#9C27B0</color> <!-- Morado -->
+        <color name="colorPurpleDark">#7B1FA2</color> <!-- Morado oscuro -->
+        <!-- Otros tonos fríos -->
+        <color name="colorTeal">#009688</color> <!-- Teal -->
+        <color name="colorTurquoise">#40E0D0</color> <!-- Turquesa -->
+        <color name="colorSlate">#607D8B</color> <!-- Gris azulado -->
+        <color name="colorIceBlue">#D1E8E2</color> <!-- Azul hielo -->
+        <color name="colorMint">#98FF98</color> <!-- Verde menta -->
+
+    <color name="colorBackgroundDark">#121212</color> <!-- Fondo oscuro -->
+
+    <color name="blanco">#FFFFFF</color>
+    <color name="grisOscuro">#3D3D3D</color>
+    <color name="azulOscuro">#0056B3</color>
+    <color name="amarillo">#FFC107</color>
+
+    <color name="bottom_nav_background">#FFFFFF</color>
+    <color name="bottom_nav_selected">#6200EE</color>
+    <color name="bottom_nav_unselected">#888888</color>
+
+    <color name="primary_color">#6200EE</color>
+    <color name="primary_dark_color">#3700B3</color>
+    <color name="accent_color">#03DAC5</color>
+
 </resources>
