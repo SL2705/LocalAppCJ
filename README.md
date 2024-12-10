@@ -1,4 +1,4 @@
-# **Aplicacion Explora Ciudad Juárez - Turista CJ (Android)** #
+# **Aplicacion Explora Ciudad Juárez - TourJuarez (Android)** #
 
 
 Explora Ciudad Juárez es una aplicación diseñada para destacar lo mejor de la ciudad, brindando a los usuarios acceso 
@@ -27,28 +27,23 @@ Promover el comercio local ofreciendo una plataforma para la venta de productos 
   - Kotlin (Android Studio).
   - Diseño responsivo con XML Layouts.
 
-- Base de Datos Local:
-  - SQLite para almacenar datos basicos del usuario.
-
 - Backend y Servicios:
   - Firebase Authentication: Para login de usuarios.
-  - Firebase Firestore: Para almacenar datos sincronizados como datos del usuario y preferencias.
 
 ---
 ### APIs Externas ###
 
 - API de mapas interactivos para localizar lugares turísticos.
-- API de pagos para gestionar las compras de productos o registre en la compra.
 
 ---
 ### Instalación ###
-Sigue estos pasos para descargar CalcGO para tu entorno de desarrollo:
+Sigue estos pasos para descargar LocalAppCJ para tu entorno de desarrollo:
 
 #### 1. Clona el repositorio:
 
-```git clone https://github.com/tuusuario/CalcGO.git```
+```git clone https://github.com/tuusuario/LocalAppCJ.git```
 
-```cd CalcGO```
+```cd LocalAppCJ```
 
 #### 2. Configura Firebase:
 
