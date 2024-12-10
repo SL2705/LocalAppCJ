@@ -51,4 +51,9 @@
     <color name="primary_dark_color">#3700B3</color>
     <color name="accent_color">#03DAC5</color>
 
+    <color name="colorBackground">#F0F0F0</color>  <!-- Color claro para fondo -->
+    <color name="colorPrimaryDark">#37474F</color>  <!-- Un color oscuro para el texto -->
+
+
+
 </resources>

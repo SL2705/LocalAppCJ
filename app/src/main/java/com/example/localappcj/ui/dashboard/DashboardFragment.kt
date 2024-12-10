@@ -7,9 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import android.widget.LinearLayout
 import android.widget.TextView
-import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.fragment.app.Fragment
 import com.example.localappcj.R
@@ -94,31 +92,31 @@ class DashboardFragment : Fragment(), OnMapReadyCallback {
     private fun agregarMarcadores() {
         val lugares = listOf(
             // Lugares turísticos principales
-            Lugar("Centro Histórico", LatLng(31.742650, -106.486183)),
-            Lugar("Parque El Chamizal", LatLng(31.740204, -106.445667)),
-            Lugar("Plaza de la Mexicanidad", LatLng(31.731759, -106.440765)),
-            Lugar("Catedral de Ciudad Juárez", LatLng(31.739850, -106.485359)),
+            Lugar("Centro Histórico", LatLng(31.739253561630473, -106.4870409552749)),
+            Lugar("Parque El Chamizal", LatLng(31.75920181852354, -106.46219629283134)),
+            Lugar("Plaza de la Mexicanidad", LatLng(31.756386770602845, -106.4401384968854)),
+            Lugar("Catedral de Ciudad Juárez", LatLng(31.740256089921207, -106.48654055291723)),
 
             // Parques y áreas recreativas
-            Lugar("Parque Central", LatLng(31.693933, -106.401276)),
-            Lugar("Parque Extremo Trepachanga", LatLng(31.768034, -106.430870)),
-            Lugar("Parque Eco 200", LatLng(31.733020, -106.422770)),
-            Lugar("Las Dunas de Bilbao", LatLng(31.459972, -106.297401)),
+            Lugar("Parque Central", LatLng (31.68724876366143, -106.42695221855345)),
+            Lugar("Parque Extremo Trepachanga", LatLng(31.689908124499688, -106.52032966156766)),
+            Lugar("Parque Eco 200", LatLng(31.6539245336635, -106.39625095599284)),
+            Lugar("Las Dunas de Bilbao", LatLng(31.651283435334452, -106.3896121243793)),
 
             // Museos y cultura
-            Lugar("Museo de la Revolución en la Frontera", LatLng(31.739207, -106.483710)),
-            Lugar("Museo de la Rodadora", LatLng(31.693533, -106.404978)),
-            Lugar("Paso del Norte Cultural Center", LatLng(31.743250, -106.486570)),
+            Lugar("Museo de la Revolución en la Frontera", LatLng(31.7390238865449, -106.48410149990805)),
+            Lugar("Museo de la Rodadora", LatLng(31.69003781611001, -106.42813933204813)),
+            Lugar("Paso del Norte Cultural Center", LatLng(31.745065231916747, -106.44591133405756)),
 
             // Monumentos
-            Lugar("Monumento a Benito Juárez", LatLng(31.742950, -106.484950)),
+            Lugar("Monumento a Benito Juárez", LatLng(31.735565519068032, -106.47905993204668)),
 
             // Otros
-            Lugar("Mercado Juárez", LatLng(31.739040, -106.482520)),
-            Lugar("Plaza de las Misiones", LatLng(31.670455, -106.418663)),
-            Lugar("Samalayuca", LatLng(31.460250, -106.295807)),
-            Lugar("Puente Internacional Santa Fe", LatLng(31.756142, -106.487896)),
-            Lugar("Estadio Olímpico Benito Juárez", LatLng(31.692450, -106.424739))
+            Lugar("Mercado Juárez", LatLng(31.739662809105194, -106.47831553020112)),
+            Lugar("Plaza de las Misiones", LatLng(31.694319045666063, -106.41088545475802)),
+            Lugar("Samalayuca", LatLng(31.34195387354509, -106.47650567950242)),
+            Lugar("Puente Internacional Santa Fe", LatLng(31.74994025914671, -106.48565066532043)),
+            Lugar("Estadio Olímpico Benito Juárez", LatLng(31.752894626468258, -106.46824034554089))
         )
 
         // Añadir cada marcador al mapa
@@ -143,31 +141,31 @@ class DashboardFragment : Fragment(), OnMapReadyCallback {
 
     private fun setupRecyclerView() {
         val lugares = listOf(
-            Lugar("Centro Histórico", LatLng(31.742650, -106.486183)),
-            Lugar("Parque El Chamizal", LatLng(31.740204, -106.445667)),
-            Lugar("Plaza de la Mexicanidad", LatLng(31.731759, -106.440765)),
-            Lugar("Catedral de Ciudad Juárez", LatLng(31.739850, -106.485359)),
+            Lugar("Centro Histórico", LatLng(31.739253561630473, -106.4870409552749)),
+            Lugar("Parque El Chamizal", LatLng(31.75920181852354, -106.46219629283134)),
+            Lugar("Plaza de la Mexicanidad", LatLng(31.756386770602845, -106.4401384968854)),
+            Lugar("Catedral de Ciudad Juárez", LatLng(31.740256089921207, -106.48654055291723)),
 
             // Parques y áreas recreativas
-            Lugar("Parque Central", LatLng(31.693933, -106.401276)),
-            Lugar("Parque Extremo Trepachanga", LatLng(31.768034, -106.430870)),
-            Lugar("Parque Eco 200", LatLng(31.733020, -106.422770)),
-            Lugar("Las Dunas de Bilbao", LatLng(31.459972, -106.297401)),
+            Lugar("Parque Central", LatLng (31.68724876366143, -106.42695221855345)),
+            Lugar("Parque Extremo Trepachanga", LatLng(31.689908124499688, -106.52032966156766)),
+            Lugar("Parque Eco 200", LatLng(31.6539245336635, -106.39625095599284)),
+            Lugar("Las Dunas de Bilbao", LatLng(31.651283435334452, -106.3896121243793)),
 
             // Museos y cultura
-            Lugar("Museo de la Revolución en la Frontera", LatLng(31.739207, -106.483710)),
-            Lugar("Museo de la Rodadora", LatLng(31.693533, -106.404978)),
-            Lugar("Paso del Norte Cultural Center", LatLng(31.743250, -106.486570)),
+            Lugar("Museo de la Revolución en la Frontera", LatLng(31.7390238865449, -106.48410149990805)),
+            Lugar("Museo de la Rodadora", LatLng(31.69003781611001, -106.42813933204813)),
+            Lugar("Paso del Norte Cultural Center", LatLng(31.745065231916747, -106.44591133405756)),
 
             // Monumentos
-            Lugar("Monumento a Benito Juárez", LatLng(31.742950, -106.484950)),
+            Lugar("Monumento a Benito Juárez", LatLng(31.735565519068032, -106.47905993204668)),
 
             // Otros
-            Lugar("Mercado Juárez", LatLng(31.739040, -106.482520)),
-            Lugar("Plaza de las Misiones", LatLng(31.670455, -106.418663)),
-            Lugar("Samalayuca", LatLng(31.460250, -106.295807)),
-            Lugar("Puente Internacional Santa Fe", LatLng(31.756142, -106.487896)),
-            Lugar("Estadio Olímpico Benito Juárez", LatLng(31.692450, -106.424739))
+            Lugar("Mercado Juárez", LatLng(31.739662809105194, -106.47831553020112)),
+            Lugar("Plaza de las Misiones", LatLng(31.694319045666063, -106.41088545475802)),
+            Lugar("Samalayuca", LatLng(31.34195387354509, -106.47650567950242)),
+            Lugar("Puente Internacional Santa Fe", LatLng(31.74994025914671, -106.48565066532043)),
+            Lugar("Estadio Olímpico Benito Juárez", LatLng(31.752894626468258, -106.46824034554089))
         )
 
         val adapter = ZonasAdapter(lugares) { lugar ->
@@ -189,7 +187,7 @@ class DashboardFragment : Fragment(), OnMapReadyCallback {
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ZonaViewHolder {
             val view = LayoutInflater.from(parent.context)
-                .inflate(R.layout.item_zona, parent, false)
+                .inflate(R.layout.item_lugar, parent, false)
             return ZonaViewHolder(view)
         }
 
@@ -202,7 +200,7 @@ class DashboardFragment : Fragment(), OnMapReadyCallback {
         override fun getItemCount(): Int = lugares.size
 
         class ZonaViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-            val nombreTextView: TextView = itemView.findViewById(R.id.zona_nombre)
+            val nombreTextView: TextView = itemView.findViewById(R.id.text_nombre)
         }
     }
 
