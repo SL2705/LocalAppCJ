@@ -1,62 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
+    <!-- Fragmento del mapa que ocupa todo el espacio disponible -->
     <fragment
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
-        android:layout_width="262dp"
-        android:layout_height="452dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.279" />
+        android:layout_width="match_parent"
+        android:layout_height="533dp"
+        android:layout_weight="1" />
 
+    <!-- Contenedor para los botones, ubicado en la parte inferior de la pantalla -->
     <LinearLayout
         android:id="@+id/button_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
         android:orientation="horizontal"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        android:padding="16dp"
+        android:layout_marginBottom="80dp"> <!-- Añadimos un marginBottom para separarlo de la parte inferior -->
 
+        <!-- Botón "Centrar Mapa" -->
+        <Button
+            android:id="@+id/btn_centrar_mapa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/verdefosforecente"
+            android:text="Centrar Mapa"
+            android:textColor="@color/blanco" />
+
+        <!-- Botón "Mostrar Zonas" -->
+        <Button
+            android:id="@+id/btn_marcadores"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/verdefosforecente"
+            android:text="Mostrar Zonas"
+            android:textColor="@color/blanco" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/btn_centrar_mapa"
-        android:layout_width="154dp"
-        android:layout_height="60dp"
-        android:layout_weight="1"
-        android:backgroundTint="@color/verdefosforecente"
-        android:text="Centrar Mapa"
-        android:textColor="@color/blanco"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.821"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.864" />
+    <!-- Contenedor para mostrar las zonas -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_zonas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:padding="16dp"/>
 
-    <Button
-        android:id="@+id/btn_marcadores"
-        android:layout_width="157dp"
-        android:layout_height="60dp"
-        android:layout_weight="1"
-        android:backgroundTint="@color/verdefosforecente"
-        android:text="Mostrar Zonas"
-        android:textColor="@color/blanco"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.864" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
